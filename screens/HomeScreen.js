@@ -8,6 +8,7 @@ import {
   FlatList,
   TextInput,
 } from 'react-native';
+import Navbar from '../components/navbar';
 import { styles } from '../styles/screens/HomeScreenStyle';
 
 const Item = ({ item }) => {
@@ -21,65 +22,10 @@ const Item = ({ item }) => {
 
 const HomeScreen = () => {
   let itemData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const [value, onChangeText] = React.useState('Search');
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* Navbar */}
-      <View style={[styles.homeNavbarContainer, styles.shadowProp]}>
-        <View style={[styles.navbar, styles.shadowProp]}>
-          <View style={styles.navbarFirstRow}>
-            <View style={styles.avatarContainer}></View>
-            <View
-              style={{
-                color: 'white',
-                flex: 0.6,
-                display: 'flex',
-                alignItems: 'flex-start',
-              }}>
-              <Text style={{ color: 'white' }}>Ishmam Tasnim</Text>
-              <View style={styles.navbarSearchbarContainer}>
-                <View style={styles.navbarSearchbar}>
-                  <Image
-                    source={require('../assets/search.jpeg')}
-                    style={{ width: 20, height: 20, borderRadius: '50%' }}
-                  />
-                  <TextInput
-                    numberOfLines={1}
-                    onChangeText={(text) => onChangeText(text)}
-                    value={value}
-                    style={{ backgroundColor: 'white', width: '80%' }}
-                  />
-                </View>
-              </View>
-            </View>
-
-            <View style={styles.navbarButtonSection}>
-              <Image
-                source={require('../assets/blood-plus.jpeg')}
-                style={{ width: 30, height: 30, borderRadius: '50%' }}
-              />
-              <Image
-                source={require('../assets/heart-taka.jpeg')}
-                style={{ width: 30, height: 30, borderRadius: '50%' }}
-              />
-            </View>
-          </View>
-        </View>
-        {/* <View style={styles.navbarSearchbarContainer}>
-          <View style={styles.navbarSearchbar}>
-            <Image
-              source={require('../assets/search.jpeg')}
-              style={{ width: 20, height: 20, borderRadius: '50%' }}
-            />
-            <TextInput
-              numberOfLines={1}
-              onChangeText={(text) => onChangeText(text)}
-              value={value}
-              style={{ backgroundColor: 'white', width: '80%' }}
-            />
-          </View>
-        </View> */}
-      </View>
+      <Navbar />
       <View style={[styles.firstSection, styles.shadowProp]}>
         {/* Hospitals */}
         <View style={styles.hospitals}>

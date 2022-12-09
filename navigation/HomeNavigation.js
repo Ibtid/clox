@@ -7,6 +7,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import { View, Text, ScrollView, StyleSheet, FlatList } from 'react-native';
 
 import HomeScreen from '../screens/HomeScreen';
+import HospitalListScreen from '../screens/HospitalListScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import SettingScreen from '../screens/SettingScreen';
 import ReownedDoctorsScreen from '../screens/ReownedDoctorsScreen';
@@ -16,7 +17,7 @@ const HomeNavigation = () => {
   return (
     <Tabs.Navigator
       sceneContainerStyle={style.container}
-      initialRouteName={'Home'}
+      initialRouteName={'Settings'}
       screenOptions={{
         headerShown: false,
         tabBarActiveTintColor: '#fff',
@@ -67,7 +68,7 @@ const HomeNavigation = () => {
       />
       <Tabs.Screen
         name='Settings'
-        component={SettingScreen}
+        component={HospitalListScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name='settings' color={color} size={size} />

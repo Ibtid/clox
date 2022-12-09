@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, ScrollView, FlatList, Image } from 'react-native';
+import Navbar from '../components/navbar';
 import { reownedDoctorsListStyle } from '../styles/screens/ReownedDoctorsScreen.style';
 
 const Item = ({ item }) => {
@@ -42,41 +43,7 @@ const ReownedDoctorsScreen = () => {
   let itemData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
     <View>
-      <View
-        style={[
-          reownedDoctorsListStyle.homeNavbarContainer,
-          reownedDoctorsListStyle.shadowProp,
-        ]}>
-        <View
-          style={[
-            reownedDoctorsListStyle.navbar,
-            reownedDoctorsListStyle.shadowProp,
-          ]}>
-          <View style={reownedDoctorsListStyle.navbarFirstRow}>
-            <View style={reownedDoctorsListStyle.avatarContainer}></View>
-            <View
-              style={{
-                color: 'white',
-                flex: 0.6,
-                display: 'flex',
-                alignItems: 'flex-start',
-              }}>
-              <Text style={{ color: 'white' }}>Ishmam Tasnim</Text>
-            </View>
-
-            <View style={reownedDoctorsListStyle.navbarButtonSection}>
-              <Image
-                source={require('../assets/blood-plus.jpeg')}
-                style={{ width: 30, height: 30, borderRadius: '50%' }}
-              />
-              <Image
-                source={require('../assets/heart-taka.jpeg')}
-                style={{ width: 30, height: 30, borderRadius: '50%' }}
-              />
-            </View>
-          </View>
-        </View>
-      </View>
+      <Navbar />
       <View style={reownedDoctorsListStyle.screenBody}>
         <Text style={reownedDoctorsListStyle.reownedDoctorsCaption}>
           Reowned Doctors
