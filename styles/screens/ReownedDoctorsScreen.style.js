@@ -85,7 +85,7 @@ export const reownedDoctorsListStyle = StyleSheet.create({
   },
 
   screenBody: {
-    height: 'calc(100vh - 6rem)',
+    height: 'calc(100vh - 7rem)',
     width: '100%',
     paddingHorizontal: 20,
     paddingVertical: 20,
