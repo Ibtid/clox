@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text, ScrollView, FlatList, Image } from 'react-native';
 import Navbar from '../components/navbar';
 import { hospitalListStyle } from '../styles/screens/HospitalListScreen.style';
-import { FlatGrid } from 'react-native-super-grid';
 
 const Item = ({ item }) => {
   return <View></View>;

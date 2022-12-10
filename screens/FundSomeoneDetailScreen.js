@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image, Text, View, ScrollView } from 'react-native';
 import Navbar from '../components/navbar';
+import Slider from '../components/Slider/Slider';
 import { fundSomeonDetailStyle } from '../styles/screens/FundSomeonDetailScreen.style';
 
 const FundSomeoneDetailScreen = () => {
@@ -16,7 +17,8 @@ const FundSomeoneDetailScreen = () => {
           style={{
             fontSize: '0.8rem',
             lineHeight: '0.8rem',
-            marginVertical: 7,
+            marginTop: 7,
+            marginBottom: 20,
           }}>
           <Text style={{ fontWeight: 'bold' }}>Disease Description</Text>
           <Text>
@@ -32,7 +34,8 @@ const FundSomeoneDetailScreen = () => {
             and the like).
           </Text>
         </Text>
-        <Text style={{ fontSize: '1rem', marginTop: 10 }}>
+        <Slider />
+        <Text style={{ fontSize: '1rem', marginTop: 20 }}>
           Square Hospital Bangladesh
         </Text>
         <Text style={{ fontSize: '0.8rem', fontWeight: 'bold' }}>
