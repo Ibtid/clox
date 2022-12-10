@@ -45,20 +45,6 @@ const Navbar = () => {
           </View>
         </View>
       </View>
-      {/* <View style={navbarStyle.navbarSearchbarContainer}>
-      <View style={navbarStyle.navbarSearchbar}>
-        <Image
-          source={require('../assets/search.jpeg')}
-          style={{ width: 20, height: 20, borderRadius: '50%' }}
-        />
-        <TextInput
-          numberOfLines={1}
-          onChangeText={(text) => onChangeText(text)}
-          value={value}
-          style={{ backgroundColor: 'white', width: '80%' }}
-        />
-      </View>
-    </View> */}
     </View>
   );
 };

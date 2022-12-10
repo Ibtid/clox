@@ -10,8 +10,10 @@ import HomeScreen from '../screens/HomeScreen';
 import HospitalListScreen from '../screens/HospitalListScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import SettingScreen from '../screens/SettingScreen';
+
 import ReownedDoctorsScreen from '../screens/ReownedDoctorsScreen';
 import FundSomeoneListScreen from '../screens/FundSomeoneListScreen';
+import DoctorDetailScreen from '../screens/DoctorDetailScreen';
 
 const Tabs = createBottomTabNavigator();
 const HomeNavigation = () => {
@@ -69,7 +71,7 @@ const HomeNavigation = () => {
       />
       <Tabs.Screen
         name='Settings'
-        component={FundSomeoneListScreen}
+        component={DoctorDetailScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name='settings' color={color} size={size} />
