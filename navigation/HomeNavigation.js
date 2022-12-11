@@ -23,7 +23,7 @@ const HomeNavigation = () => {
   return (
     <Tabs.Navigator
       sceneContainerStyle={style.container}
-      initialRouteName={'Settings'}
+      initialRouteName={'Profile'}
       screenOptions={{
         headerShown: false,
         tabBarActiveTintColor: '#fff',
@@ -56,7 +56,7 @@ const HomeNavigation = () => {
     >
       <Tabs.Screen
         name='Profile'
-        component={ReownedDoctorsScreen}
+        component={ProfileScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
             <FontAwesome name='user' color={color} size={size} />
