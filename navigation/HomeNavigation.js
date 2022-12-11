@@ -16,6 +16,7 @@ import FundSomeoneListScreen from '../screens/FundSomeoneListScreen';
 import DoctorDetailScreen from '../screens/DoctorDetailScreen';
 import HospitalDetailScreen from '../screens/HospitalDetailScreen';
 import FundSomeoneDetailScreen from '../screens/FundSomeoneDetailScreen';
+import ApplyForCrowdFundingScreen from '../screens/ApplyForCrowdFundingScreen';
 
 const Tabs = createBottomTabNavigator();
 const HomeNavigation = () => {
@@ -73,7 +74,7 @@ const HomeNavigation = () => {
       />
       <Tabs.Screen
         name='Settings'
-        component={FundSomeoneDetailScreen}
+        component={ApplyForCrowdFundingScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name='settings' color={color} size={size} />
