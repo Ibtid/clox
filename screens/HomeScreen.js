@@ -7,6 +7,7 @@ import {
   Image,
   FlatList,
   TextInput,
+  ImageBackground,
 } from 'react-native';
 import Navbar from '../components/navbar';
 import { styles } from '../styles/screens/HomeScreenStyle';
@@ -81,31 +82,35 @@ const HomeScreen = () => {
           <View style={styles.thirdSectionCardTextContainer}>
             <Text>Crowd Funding</Text>
           </View>
-          <View style={styles.thirdSectionCardButtonContainer}>
-            <View style={styles.thirdSectionCardButton}>
+          <ImageBackground
+            style={styles.thirdSectionCardButtonContainer}
+            source={require('../assets/SVGs/pexels-karolina-grabowska-4386442.jpg')}>
+            <View style={[styles.thirdSectionCardButton, styles.shadowProp]}>
               <Text>Raise</Text>
               <Text>Fund</Text>
             </View>
-            <View style={styles.thirdSectionCardButton}>
+            <View style={[styles.thirdSectionCardButton, styles.shadowProp]}>
               <Text>Fund</Text>
               <Text>Someone</Text>
             </View>
-          </View>
+          </ImageBackground>
         </View>
         <View style={styles.thirdSectionCard}>
           <View style={styles.thirdSectionCardTextContainer}>
             <Text>Blood Bank</Text>
           </View>
-          <View style={styles.thirdSectionCardButtonContainer}>
-            <View style={styles.thirdSectionCardButton}>
+          <ImageBackground
+            style={styles.thirdSectionCardButtonContainer}
+            source={require('../assets/SVGs/pexels-anna-shvets-3786124.jpg')}>
+            <View style={[styles.thirdSectionCardButton, styles.shadowProp]}>
               <Text>Search</Text>
               <Text>Blood</Text>
             </View>
-            <View style={styles.thirdSectionCardButton}>
+            <View style={[styles.thirdSectionCardButton, styles.shadowProp]}>
               <Text>Donate</Text>
               <Text>Blood</Text>
             </View>
-          </View>
+          </ImageBackground>
         </View>
       </View>
     </ScrollView>

@@ -35,12 +35,12 @@ const Navbar = () => {
 
           <View style={navbarStyle.navbarButtonSection}>
             <Image
-              source={require('../assets/blood-plus.jpeg')}
-              style={{ width: 30, height: 30, borderRadius: '50%' }}
+              source={require('../assets/SVGs/Bloodbank.svg')}
+              style={{ width: 30, height: 30 }}
             />
             <Image
-              source={require('../assets/heart-taka.jpeg')}
-              style={{ width: 30, height: 30, borderRadius: '50%' }}
+              source={require('../assets/SVGs/CrowdFunding.svg')}
+              style={{ width: 40, height: 40, borderRadius: '50%' }}
             />
           </View>
         </View>

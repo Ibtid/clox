@@ -143,11 +143,12 @@ export const styles = StyleSheet.create({
   thirdSectionCardButton: {
     height: '17vw',
     width: '17vw',
-    backgroundColor: 'red',
-    borderRadius: 4,
+    backgroundColor: '#fd0101',
+    borderRadius: 5,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 1,
+    borderWidth: 2,
   },
 });
