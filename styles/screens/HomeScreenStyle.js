@@ -1,5 +1,6 @@
-import { StyleSheet } from 'react-native';
-
+import { StyleSheet, Dimensions } from 'react-native';
+const width = Dimensions.get('window').width;
+const height = Dimensions.get('window').height;
 export const styles = StyleSheet.create({
   container: {
     // height: '100vh',
@@ -102,21 +103,21 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   hospitalCard: {
-    height: '18vw',
-    width: '18vw',
+    height: 0.18*width,
+    width: 0.18*width,
     backgroundColor: 'black',
     borderRadius: 5,
   },
   DoctorCard: {
-    height: '14vw',
-    width: '14vw',
+    height: 0.14*width,
+    width: 0.14*width,
     backgroundColor: 'black',
     borderRadius: 4,
     marginHorizontal: 7,
   },
   thirdSectionCard: {
-    height: '42vw',
-    width: '42vw',
+    height: 0.42*width,
+    width: 0.42*width,
     backgroundColor: '#f2f2f2',
     borderRadius: 10,
     display: 'flex',
@@ -128,11 +129,11 @@ export const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '6vw',
+    height: 0.06 * width,
     width: '100%',
   },
   thirdSectionCardButtonContainer: {
-    height: '30vw',
+    height: 0.3*width,
     width: '100%',
     backgroundColor: 'black',
     display: 'flex',
@@ -141,8 +142,8 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
   },
   thirdSectionCardButton: {
-    height: '17vw',
-    width: '17vw',
+    height: 0.17*width,
+    width: 0.17*width,
     backgroundColor: '#fd0101',
     borderRadius: 5,
     display: 'flex',

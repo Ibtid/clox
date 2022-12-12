@@ -2,14 +2,14 @@ import { StyleSheet } from 'react-native';
 
 export const fundSomeonelistStyle = StyleSheet.create({
   caption: {
-    fontSize: '1.25rem',
+    fontSize: 1.25,
     fontWeight: 'bold',
     marginBottom: 10,
   },
   card: {
     marginVertical: 10,
     borderColor: 'black',
-    borderWidth: '1px',
+    borderWidth: 1,
     borderRadius: 10,
     padding: 10,
     height: '9.4rem',
@@ -33,19 +33,19 @@ export const fundSomeonelistStyle = StyleSheet.create({
     flex: 1,
   },
   cardView__Name: {
-    fontSize: '1.2rem',
+    fontSize: 1.2,
     fontWeight: 'bold',
   },
   cardView__hospitalName: {
-    fontSize: '1rem',
+    fontSize: 1,
   },
   cardView__RequiredAmount: {
-    fontSize: '0.9rem',
+    fontSize: 0.9,
     lineHeight: '1rem',
   },
   cardView__details: {
     marginTop: -10,
-    fontSize: '0.85rem',
+    fontSize: 0.85,
     lineHeight: '0.9rem',
   },
 });

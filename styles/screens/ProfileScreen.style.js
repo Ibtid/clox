@@ -7,8 +7,8 @@ export const profileScreenStyle = StyleSheet.create({
   body: {
     backgroundColor: '#1c1c1c',
     padding: 20,
-    height: '100vh',
-    width: '100vw',
+    height: height,
+    width: width,
   },
   iconRow: {
     width: '100%',
@@ -21,17 +21,17 @@ export const profileScreenStyle = StyleSheet.create({
 
   gradientBox: {
     backgroundImage: 'linear-gradient(to right, #7850dd , #41a1e0)',
-    height: '35vw',
-    width: '35vw',
+    height: 0.35*width,
+    width:  0.35*width,
     position: 'relative',
     borderRadius: 10,
-    marginLeft: '15vw',
+    marginLeft:  0.15*width,
     padding: 7,
   },
   whiteCircle: {
     backgroundColor: '#f1f1f1',
-    height: '40vw',
-    width: '40vw',
+    height:  0.40*width,
+    width:  0.40*width,
     borderRadius: '50%',
     position: 'absolute',
     bottom: '-50%',
@@ -51,7 +51,7 @@ export const profileScreenStyle = StyleSheet.create({
     paddingVertical: 7,
     paddingHorizontal: 3,
     borderRadius: 5,
-    borderWidth: '1px',
+    borderWidth: 1,
     borderColor: 'white',
     color: 'white',
     marginBottom: 5,

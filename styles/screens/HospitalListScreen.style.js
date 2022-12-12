@@ -1,5 +1,6 @@
-import { StyleSheet } from 'react-native';
-
+import { StyleSheet, Dimensions } from 'react-native';
+const width = Dimensions.get('window').width;
+const height = Dimensions.get('window').height;
 export const hospitalListStyle = StyleSheet.create({
   caption: {
     marginVertical: 10,
@@ -10,7 +11,7 @@ export const hospitalListStyle = StyleSheet.create({
     flexDirection: 'row',
   },
   captionText: {
-    fontSize: '1.2rem',
+    fontSize: 1.2,
     fontWeight: 'bold',
   },
   captionImage__container: {
@@ -20,7 +21,7 @@ export const hospitalListStyle = StyleSheet.create({
     flexDirection: 'row',
   },
   captionImage__smallText: {
-    fontSize: '0.9rem',
+    fontSize: 0.9,
     marginLeft: '0.5rem',
   },
   nearbyHospital__container: {
@@ -51,17 +52,17 @@ export const hospitalListStyle = StyleSheet.create({
     justifyContent: 'center',
   },
   smallImage__text: {
-    fontSize: '0.9rem',
+    fontSize: 0.9,
   },
   largeImage: {
     width: '6rem',
     height: '6rem',
     borderRadius: 10,
-    marginHorizontal: '2.5vw',
+    marginHorizontal: 0.025*width,
     backgroundColor: 'black',
   },
   largeImage__Text: {
-    fontSize: '1rem',
+    fontSize: 1,
     marginBottom: 10,
   },
 });

@@ -10,12 +10,12 @@ const FundSomeoneDetailScreen = () => {
       <Navbar />
       <View style={{ padding: 15 }}>
         <Text>
-          <Text style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Xabin</Text>
-          <Text style={{ fontSize: '0.8rem' }}>, 32</Text>
+          <Text style={{ fontSize: 1.5, fontWeight: 'bold' }}>Xabin</Text>
+          <Text style={{ fontSize: 0.8 }}>, 32</Text>
         </Text>
         <Text
           style={{
-            fontSize: '0.8rem',
+            fontSize: 0.8,
             lineHeight: '0.8rem',
             marginTop: 7,
             marginBottom: 20,
@@ -35,14 +35,14 @@ const FundSomeoneDetailScreen = () => {
           </Text>
         </Text>
         <Slider />
-        <Text style={{ fontSize: '1rem', marginTop: 20 }}>
+        <Text style={{ fontSize: 1, marginTop: 20 }}>
           Square Hospital Bangladesh
         </Text>
-        <Text style={{ fontSize: '0.8rem', fontWeight: 'bold' }}>
+        <Text style={{ fontSize: 0.8, fontWeight: 'bold' }}>
           Required: 5,00,000 tk
         </Text>
         <Text
-          style={{ fontSize: '1.25rem', marginTop: 10, fontWeight: 'bold' }}>
+          style={{ fontSize: 1.25, marginTop: 10, fontWeight: 'bold' }}>
           Paperworks
         </Text>
         <View style={fundSomeonDetailStyle.paperworks}>
@@ -62,10 +62,10 @@ const FundSomeoneDetailScreen = () => {
               source={require('../assets/bkash.jpeg')}
               style={{ width: 40, height: 40, marginBottom: 10 }}
             />
-            <Text style={{ fontSize: '0.8rem', fontWeight: 'bold' }}>
+            <Text style={{ fontSize: 0.8, fontWeight: 'bold' }}>
               Number: 01711234567
             </Text>
-            <Text style={{ fontSize: '0.7rem' }}>Add Another Number</Text>
+            <Text style={{ fontSize: 0.7 }}>Add Another Number</Text>
           </View>
           <View
             style={{
@@ -80,7 +80,7 @@ const FundSomeoneDetailScreen = () => {
             />
             <Text
               style={{
-                fontSize: '0.8rem',
+                fontSize: 0.8,
                 fontWeight: 'bold',
                 lineHeight: '0.9rem',
               }}>
@@ -88,7 +88,7 @@ const FundSomeoneDetailScreen = () => {
             </Text>
             <Text
               style={{
-                fontSize: '0.8rem',
+                fontSize: 0.8,
                 fontWeight: 'bold',
                 lineHeight: '0.9rem',
                 marginVertical: 7,
@@ -97,13 +97,13 @@ const FundSomeoneDetailScreen = () => {
             </Text>
             <Text
               style={{
-                fontSize: '0.8rem',
+                fontSize: 0.8,
                 fontWeight: 'bold',
                 lineHeight: '0.9rem',
               }}>
               Routing Number: 40937
             </Text>
-            <Text style={{ fontSize: '0.7rem' }}>Add Another Number</Text>
+            <Text style={{ fontSize: 0.7 }}>Add Another Number</Text>
           </View>
         </View>
       </View>

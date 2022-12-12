@@ -53,19 +53,19 @@ const DoctorDetailScreen = () => {
             Intensive Care Diagnostic & Consultant Center
           </Text>
           <Text>
-            <Text style={{ fontWeight: 'bold', fontSize: '0.9rem' }}>
+            <Text style={{ fontWeight: 'bold', fontSize: 0.9 }}>
               Address:{' '}
             </Text>
-            <Text style={{ fontSize: '0.9rem' }}>
+            <Text style={{ fontSize: 0.9 }}>
               Lorem Ipsum is that it has a more-or-less normal distribution of
               letters
             </Text>
           </Text>
           <Text>
-            <Text style={{ fontWeight: 'bold', fontSize: '0.9rem' }}>
+            <Text style={{ fontWeight: 'bold', fontSize: 0.9 }}>
               Visiting time:{' '}
             </Text>
-            <Text style={{ fontSize: '0.9rem' }}>5pm - 8pm</Text>
+            <Text style={{ fontSize: 0.9 }}>5pm - 8pm</Text>
           </Text>
         </View>
         <View style={doctorDetailStyle.alignRight}>
