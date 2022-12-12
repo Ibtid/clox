@@ -21,11 +21,11 @@ export const doctorDetailStyle = StyleSheet.create({
   },
 
   name: {
-    fontSize: 1.5,
+    fontSize: '1.5rem',
     fontWeight: 'bold',
   },
   smallDetails: {
-    fontSize: 0.9,
+    fontSize: '0.9rem',
     lineHeight: '0.9rem',
     marginBottom: 10,
   },
@@ -37,7 +37,7 @@ export const doctorDetailStyle = StyleSheet.create({
     flexDirection: 'row',
     width: '100%',
     padding: 10,
-    borderWidth: 1,
+    borderWidth: '1px',
     borderRadius: 10,
     borderColor: 'black',
   },
@@ -51,13 +51,13 @@ export const doctorDetailStyle = StyleSheet.create({
   },
   caption: {
     margin: 5,
-    fontSize: 1.25,
+    fontSize: '1.25rem',
     fontWeight: 'bold',
   },
   chamberCard: {
     width: '100%',
     padding: 10,
-    borderWidth: 1,
+    borderWidth: '1px',
     borderRadius: 10,
     borderColor: 'black',
   },

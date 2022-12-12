@@ -19,7 +19,7 @@ const ProfileScreen = () => {
 
         <View style={profileScreenStyle.gradientBox}>
           <Text style={profileScreenStyle.borderText}>Blood Group: B+</Text>
-          <Text style={{ color: 'white', fontSize: 0.8 }}>Age: 34</Text>
+          <Text style={{ color: 'white', fontSize: '0.8rem' }}>Age: 34</Text>
           <View style={profileScreenStyle.whiteCircle}>
             <View style={profileScreenStyle.orangeCircle}></View>
           </View>
@@ -38,7 +38,7 @@ const ProfileScreen = () => {
         <Text
           style={{
             color: 'white',
-            fontSize: 1.5,
+            fontSize: '1.5rem',
             fontWeight: 'bold',
             marginHorizontal: 'auto',
           }}>
@@ -47,7 +47,7 @@ const ProfileScreen = () => {
         <Text
           style={{
             color: '#e1e1e1',
-            fontSize: 1,
+            fontSize: '1rem',
 
             marginHorizontal: 'auto',
           }}>
@@ -57,7 +57,7 @@ const ProfileScreen = () => {
           style={{
             marginVertical: 20,
             color: '#f0f0f0',
-            fontSize: 0.8,
+            fontSize: '0.8rem',
             marginHorizontal: 'auto',
             lineHeight: '0.8rem',
             textAlign: 'center',
@@ -74,7 +74,7 @@ const ProfileScreen = () => {
         <Text
           style={{
             color: 'white',
-            fontSize: 1,
+            fontSize: '1rem',
             fontWeight: 'bold',
           }}>
           Last Donated Blood: 2 months ago

@@ -15,7 +15,7 @@ const ApplyForCrowdFundingScreen = () => {
     <ScrollView>
       <Navbar />
       <View style={{ padding: 20 }}>
-        <Text style={{ fontSize: 1.5, fontWeight: 'bold' }}>
+        <Text style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
           Apply for Crowd Funding
         </Text>
         <View style={applyForCrowdFundingScreenStyle.flexedRow}>

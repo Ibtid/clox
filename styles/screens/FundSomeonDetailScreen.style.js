@@ -18,7 +18,7 @@ export const fundSomeonDetailStyle = StyleSheet.create({
     borderRadius: 20,
     width: '100%',
     borderColor: 'black',
-    borderWidth: 1,
+    borderWidth: '1px',
     display: 'flex',
     flexDirection: 'row',
     marginTop: 10,

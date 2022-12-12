@@ -9,7 +9,7 @@ export const reownedDoctorsListStyle = StyleSheet.create({
   },
 
   reownedDoctorsCaption: {
-    fontSize: 1.2,
+    fontSize: '1.2rem',
     fontWeight: 'bold',
     marginBottom: 10,
   },
@@ -18,7 +18,7 @@ export const reownedDoctorsListStyle = StyleSheet.create({
     height: '5.7rem',
     width: '100%',
     borderRadius: 15,
-    borderWidth: 1,
+    borderWidth: '1px',
     borderColor: 'black',
     display: 'flex',
     alignItems: 'flex-start',
@@ -39,13 +39,13 @@ export const reownedDoctorsListStyle = StyleSheet.create({
     flex: 1,
   },
   cardView__doctorName: {
-    fontSize: 1.1,
+    fontSize: '1.1rem',
   },
   cardView__hospitalName: {
-    fontSize: 1,
+    fontSize: '1rem',
   },
   cardView__details: {
-    fontSize: 0.9,
+    fontSize: '0.9rem',
     lineHeight: '1rem',
     numberOfLines: 2,
   },

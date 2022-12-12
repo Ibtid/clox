@@ -1,20 +1,19 @@
-import { StyleSheet, Dimensions } from 'react-native';
-const width = Dimensions.get('window').width;
-const height = Dimensions.get('window').height;
+import { StyleSheet } from 'react-native';
+
 export const hospitalDetailStyle = StyleSheet.create({
   coverImage: {
     width: '100%',
-    height: 0.5*width,
+    height: '50vw',
     backgroundColor: '#e0e0e0',
   },
   hospitalName: {
-    fontSize: 1.5,
+    fontSize: '1.5rem',
     fontWeight: 'bold',
     marginBottom: 20,
   },
   card: {
     padding: 10,
-    borderWidth: 1,
+    borderWidth: '1px',
     borderColor: 'black',
     borderRadius: 10,
   },
@@ -25,7 +24,7 @@ export const hospitalDetailStyle = StyleSheet.create({
     marginVertical: 2.5,
   },
   card__description: {
-    fontSize: 0.85,
+    fontSize: '0.85rem',
   },
   icon: {
     height: 20,
@@ -35,7 +34,7 @@ export const hospitalDetailStyle = StyleSheet.create({
   caption: {
     marginTop: 20,
     fontWeight: 'bold',
-    fontSize: 1.25,
+    fontSize: '1.25rem',
   },
 
   underline: {
@@ -56,7 +55,7 @@ export const hospitalDetailStyle = StyleSheet.create({
     width: '48%',
     paddingHorizontal: 5,
     paddingVertical: 5,
-    borderWidth: 1,
+    borderWidth: '1px',
     borderColor: 'black',
     borderRadius: 30,
     display: 'flex',
@@ -65,6 +64,6 @@ export const hospitalDetailStyle = StyleSheet.create({
     flexDirection: 'row',
     marginHorizontal: '1%',
     marginVertical: 5,
-    fontSize: 0.7,
+    fontSize: '0.7rem',
   },
 });
